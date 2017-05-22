@@ -1,0 +1,4 @@
+/opt/local/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/gyoung/CLionProjects/TLS_Server_libbotan
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/gyoung/CLionProjects/TLS_Server_libbotan/cmake-build-debug

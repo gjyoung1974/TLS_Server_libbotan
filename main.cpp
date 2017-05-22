@@ -1,19 +1,20 @@
-#include "cli.h"
-
 /*
 * 2017 - Gordon Young
 * gjyoung1974@gmail.com
 *
 */
 
+#include "cli.h"
+
 int main(int argc, char *argv[]) {
 
-    //placeholder until I figure out how to format the command
-    std::cout << "Hello World!" << std::endl;
-    std::cin.get();
+    // tls_client host --port=443 --print-certs --policy= --tls1.0 --tls1.1 --tls1.2
+    // --session-db= --session-db-pass= --next-protocols= --type=tcp"
 
-    auto cmd = Botan_CLI::Command::get_cmd("tls_server cert key --port=443 --type=tcp --policy=");
-    cmd.get()->cmd_name();
+    //placeholder until I figure out how to format the command
+    auto cmd = Botan_CLI::Command::get_cmd("tls_client");
+    std::cout << cmd.get()->cmd_name() << std::endl;
+    std::cin.get();
     return 0;
 
 }

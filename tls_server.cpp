@@ -1,10 +1,3 @@
-/*
-* TLS echo server using BSD sockets
-* (C) 2014 Jack Lloyd
-*
-* Botan is released under the Simplified BSD License (see license.txt)
-*/
-
 #include "cli.h"
 
 #include <botan/tls_server.h>

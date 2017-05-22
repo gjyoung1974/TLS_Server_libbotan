@@ -10,7 +10,7 @@ set(CMAKE_XCODE_ATTRIBUTE_CLANG_CXX_LIBRARY "libc++")
 set(CMAKE_XCODE_ATTRIBUTE_GCC_VERSION "com.apple.compilers.llvm.clang.1_0")
 set(CMAKE_MACOSX_RPATH 1)
 
-set(SOURCE_FILES main.cpp cli.h)
+set(SOURCE_FILES main.cpp tls_client.cpp tls_server.cpp credentials.h cli.h)
 
 include_directories("${ROOT_SOURCE_DIR}/usr/local/include/botan-2/")
 
